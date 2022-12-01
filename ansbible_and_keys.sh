@@ -33,6 +33,6 @@ do ssh-copy-id $server
 
 done
 
-sleep
+sleep 120
 
 echo "stop scripting" >> log.txt ; date>> log.txt
